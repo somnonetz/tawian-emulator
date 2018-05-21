@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import FileSaver from 'file-saver';
 // import { Treebeard } from 'react-treebeard';
 import _ from 'lodash';
@@ -19,8 +20,8 @@ const listFilesCommand = 'ls -al';
 export default class extends Component {
 
   static propTypes = {
-    vm: React.PropTypes.object.isRequired,
-    execute: React.PropTypes.func,
+    vm: PropTypes.object.isRequired,
+    execute: PropTypes.func,
   }
 
   state = {

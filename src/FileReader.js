@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Dropzone from 'react-dropzone';
 // import JSZip from 'jszip';
 import _ from 'lodash';
@@ -20,7 +21,7 @@ const activeStyle = {
 export default class extends Component {
 
   static propTypes = {
-    vm: React.PropTypes.object.isRequired,
+    vm: PropTypes.object.isRequired,
   }
 
   state = {

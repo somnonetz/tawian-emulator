@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import _ from 'lodash';
 
 export default class extends Component {
 
   static propTypes = {
-    vm: React.PropTypes.object.isRequired,
-    elf: React.PropTypes.string.isRequired,
-    resolve: React.PropTypes.func,
+    vm: PropTypes.object.isRequired,
+    elf: PropTypes.string.isRequired,
+    resolve: PropTypes.func,
   }
 
   static defaultProps = {
