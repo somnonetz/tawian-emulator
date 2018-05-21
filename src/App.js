@@ -38,7 +38,6 @@ export default class extends Component {
 
     vm.once('ready', async () => {
       document.getElementById('screen_container').parentElement.open = false; // TODO remove
-      // await this.execute('hello3');
       this.setState({ started: true, isRunning: true });
     });
 
