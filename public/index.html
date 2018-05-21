@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Tawian Eumulator</title>
+<!--
+   <script src="v86-src/const.js"></script>
+   <script src="v86-src/io.js"></script>
+   <script src="v86-src/main.js"></script>
+   <script src="v86-src/lib.js"></script>
+   <script src="v86-src/fpu.js"></script>
+   <script src="v86-src/ide.js"></script>
+   <script src="v86-src/pci.js"></script>
+   <script src="v86-src/floppy.js"></script>
+   <script src="v86-src/cpu.js"></script>
+   <script src="v86-src/memory.js"></script>
+   <script src="v86-src/dma.js"></script>
+   <script src="v86-src/pit.js"></script>
+   <script src="v86-src/vga.js"></script>
+   <script src="v86-src/ps2.js"></script>
+   <script src="v86-src/pic.js"></script>
+   <script src="v86-src/rtc.js"></script>
+   <script src="v86-src/uart.js"></script>
+   <script src="v86-src/hpet.js"></script>
+   <script src="v86-src/acpi.js"></script>
+   <script src="v86-src/apic.js"></script>
+   <script src="v86-src/state.js"></script>
+   <script src="v86-src/ne2k.js"></script>
+   <script src="v86-src/virtio.js"></script>
+   <script src="v86-src/bus.js"></script>
+   <script src="v86-src/log.js"></script>
+   <script src="v86-src/translate.js"></script>
+   <script src="v86-src/modrm.js"></script>
+   <script src="v86-src/string.js"></script>
+   <script src="v86-src/arith.js"></script>
+   <script src="v86-src/misc_instr.js"></script>
+   <script src="v86-src/instructions.js"></script>
+   <script src="v86-src/debug.js"></script>
+
+   <script src="v86-lib/9p.js"></script>
+   <script src="v86-lib/filesystem.js"></script>
+   <script src="v86-lib/jor1k.js"></script>
+   <script src="v86-lib/marshall.js"></script>
+   <script src="v86-lib/utf8.js"></script>
+
+   <script src="v86-src/browser/screen.js"></script>
+   <script src="v86-src/browser/keyboard.js"></script>
+   <script src="v86-src/browser/mouse.js"></script>
+   <script src="v86-src/browser/serial.js"></script>
+   <script src="v86-src/browser/network.js"></script>
+   <script src="v86-src/browser/lib.js"></script>
+   <script src="v86-src/browser/starter.js"></script>
+   <script src="v86-src/browser/worker_bus.js"></script>
+    -->
+   <script src="libv86.js"></script>
+</head>
+
+<body>
+   <div class="container" style="max-width: 100%">
+      <header class="site-header dashed-bottom">
+         <a href="/" class="site-title">Tawian Emulator</a>
+      </header>
+
+      <main id="app" class="site-main"></main>
+
+      <details class="card" style="display: inline-block;" open>
+        <summary class="card-header">Debugging Terminal</summary>
+        <div id="screen_container">
+          <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
+          <canvas style="display: none"></canvas>
+        </div>
+      </details>
+
+      <footer class="site-footer dashed-top">
+         Github: <a href="https://github.com/tawian">tawian</a>
+      </footer>
+   </div>
+
+</body>
+
+</html>
