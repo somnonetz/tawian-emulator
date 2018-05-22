@@ -1,6 +1,6 @@
 # [Tawian Emulator](https://somnonetz.github.io/tawian-emulator/)
 
-Package Linux programs and run them in the browser.
+Run Linux programs in the browser. Based on [copy/v86](https://github.com/copy/v86).
 
 
 ## Build
